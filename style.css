@@ -1,0 +1,20 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #fafafa;
+}
+
+
+.listview {
+  border: 2px solid black;
+  border-radius: 4px;
+  margin: 4px;
+  width: 80vw;
+}
+
+.row {
+  padding: 4px;
+  border: 1px solid grey;
+  margin: 2px;
+}

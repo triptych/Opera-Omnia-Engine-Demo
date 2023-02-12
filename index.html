@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <h1>Opera Omnia API Demo</h1>
+  </header>
+  <section>
+    <h2>Intro</h2>
+    <p>This page demonstrates the Opera Omnia API</p>
+
+  </section>
+  <section>
+    <h2>List all lists:</h2>
+    <p>Displays a list of all the possible Opera Omnia lists:</p>
+    <button class="apibutton">List all lists</button>
+    <select id="list_select" class="apilistselect">
+      <option value="">Select a list</option>
+    </select>
+  </section>
+  <section>
+    <h2>Display a list</h2>
+    <p>Display the list of items from a specific list: (choose one from the select above first)</p>
+    <button class="apibutton-list">Display a list</button>
+    <div class="listview">
+      list will show up here ...
+    </div>
+  </section>
+
+  <!--
+  <hr />
+  Fetch monsters list:
+  <div>Response from Opera Omnia Engine:</div>
+  <div id="response"></div> -->
+  <!-- <script src="script.js"></script> -->
+
+  <script type="module" src="OperaOmnia.js">
+  </script>
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="purple" defer></script>
+</body>
+
+</html>
